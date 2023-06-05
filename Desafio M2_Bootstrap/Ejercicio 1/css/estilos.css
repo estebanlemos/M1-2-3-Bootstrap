@@ -1,0 +1,51 @@
+
+.titulo {
+    font-size: 65px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color: #04146c;
+
+    
+    
+}
+
+.subtitulo {
+    font-size: 24px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color: #04146c;
+    
+}
+
+.persona {
+    font-size: 40px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color: #0a2ff1;
+    
+}
+
+.boton {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    color: #04146c;
+    border: 2px solid #0a2ff1;
+    padding: 5px 15px;
+    background-color: transparent;
+    width: 200px;
+}
+
+
+.descripcion{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: #04146c;
+    font-size: 24px;
+
+}
+
+.imagenes {
+    width: auto;
+    height: 300px ;
+    
+}

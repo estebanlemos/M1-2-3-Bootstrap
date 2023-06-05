@@ -1,0 +1,98 @@
+
+.titulo {
+    font-size: 5rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color: #3957f1;
+    margin-left: 20px;
+   
+}
+
+.parrafo {
+    font-size: 0.9rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 0;
+    
+    
+}
+
+.titulo2 {
+    font-size: 1.5rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center; 
+    margin: 0;
+}
+
+.texto {
+display: flex;
+padding: 0;
+height: 60px;
+justify-content: center;
+align-items: center;
+}
+
+
+.imguno {
+    background-position: center;
+    background-image: url(../images/ProgramasInternacionales.png);
+    background-size:contain;
+    height: 180px;
+    background-repeat: no-repeat;
+    
+}
+
+
+.imgdos {
+    background-position: center;
+    background-image: url(../images/ParcticasProfesionales.png);
+    background-size: contain;
+    height: 180px;
+    background-repeat: no-repeat;
+}
+
+.imgtres {
+    background-position: center;
+    background-image: url(../images/Becas.png);
+    background-size: contain;
+    height: 180px;
+    background-repeat: no-repeat;
+}
+
+.imgcuatro {
+    background-position: center;
+    background-image: url(../images/CampusVirtual.png);
+    background-size: contain;
+    height: 180px;
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width: 1250px) {
+    .imguno, .imgdos, .imgtres, .imgcuatro {
+      height: 250px; 
+    }
+    .titulo {
+        margin-left: 45px;
+    }
+  }
+@media (max-width: 768px) {
+    .imguno, .imgdos, .imgtres, .imgcuatro {
+      height: 320px; 
+    }
+    .titulo {
+        margin-left: 25px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .imguno, .imgdos, .imgtres, .imgcuatro {
+      height: 280px; 
+    }
+    .titulo {
+        margin-left: 35px;
+  }

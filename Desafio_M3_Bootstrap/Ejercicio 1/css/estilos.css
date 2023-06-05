@@ -1,0 +1,42 @@
+
+.etiqueta {
+    font-size: 24px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    color: #04146c;
+
+    
+    
+}
+
+.leyendaemail {
+    font-size: 17.33px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: #04146c;
+    font-style: italic;
+}
+
+.estilocheck {
+    font-size: 24px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: #04146c;
+}
+
+.enviar {
+    font-size: 24px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    color: white;
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.formulario {
+    width: 50%;
+    text-align: left;
+    justify-content: center;
+
+}
